@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Game_Logic
+namespace GameLogic
 {
     public class Game : MonoBehaviour
     {
