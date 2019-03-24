@@ -4,11 +4,11 @@ namespace GameLogic
 {
     public class Player : MonoBehaviour
     {
+        private const float bulletOffset = 0.5f;
+        
         [SerializeField] private float speed;
         [SerializeField] private float bulletForce;
         [SerializeField] private GameObject bulletPrefab;
-
-        private const float bulletOffset = 0.5f;
 
         private Rigidbody rigidbody;
         private CharacterController characterController;
