@@ -1,6 +1,8 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Xml.Linq;
+using CentipedeImpl;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -12,6 +14,7 @@ namespace MapLogic
         
         public Cell[,] Cells { get; private set; }
         public int MushroomCount { get; private set; }
+        
 
         public IEnumerable<Cell> CellsEnumerable
         {
@@ -45,7 +48,7 @@ namespace MapLogic
                 {
                     var cell = Instantiate(cellPrefab, new Vector3(x, y), Quaternion.identity, transform);
                     var cellComponent = cell.GetComponent<Cell>();
-                    cellComponent.Set(new Vector2(x, y));
+                    cellComponent.Place(new Vector2(x, y));
 
                     if (map[x, y] == 1)
                         cellComponent.SpawnMushroom();
@@ -60,20 +63,26 @@ namespace MapLogic
             return CellsEnumerable.First(selector);
         }
 
-        public Cell GetRandomCell()
+        public void SpawnMushroomAt(Point position)
         {
-            var index = Random.Range(0, Cells.Length);
-            var allCells = CellsEnumerable.ToList();
+            var cell = Cells[position.X, position.Y];
+            if (cell.HasMushroom)
+                return;
             
-            return allCells[index];
+            cell.SpawnMushroom();
+            MushroomCount++;
         }
 
         public void SpawnMushroom()
         {
-            var cell = GetCell(x => !x.HasMushroom);
-            cell.SpawnMushroom();
+            var cellsWithoutMushroom = CellsEnumerable.Where(x => !x.HasMushroom).ToList();
+            var index = Random.Range(0, cellsWithoutMushroom.Count);
+            cellsWithoutMushroom[index].SpawnMushroom();
+        }
 
-            MushroomCount++;
+        public Cell CellAt(Point point)
+        {
+            return Cells[point.X, point.Y];
         }
     }
 }

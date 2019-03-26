@@ -16,7 +16,7 @@ namespace MapLogic
             HasMushroom = true;
         }
 
-        public void Set(Vector2 position)
+        public void Place(Vector2 position)
         {
             Position = position;
         }

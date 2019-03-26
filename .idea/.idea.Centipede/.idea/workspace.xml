@@ -2,9 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d7bb1a8-c629-4e83-aa68-ca881d621c6e" name="Default Changelist" comment="Maps and Shooting">
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GameLogic/CentipedeLogic/Centipede.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GameLogic/CentipedeLogic/Head.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Centipede/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Centipede/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Centipede/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Centipede/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Centipede/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Centipede/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Centipede/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Centipede/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Centipede/riderModule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bullet.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bullet.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Cell.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Cell.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Mushroom.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Mushroom.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Centipede.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CentipedeImpl.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Centipede/Centipede.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Centipede/Centipede.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameLogic/CentipedeLogic/Centipede.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Centipede/Direction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enums/Direction.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Centipede/Direction.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enums/Direction.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Centipede/Head.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Centipede/Head.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameLogic/CentipedeLogic/Head.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Centipede/ICentipede.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Centipede/ICentipedePart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CentipedeImpl/ICentipedePart.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Centipede/ICentipedePart.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CentipedeImpl/ICentipedePart.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Centipede/IHead.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CentipedeImpl/IHead.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Centipede/IHead.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CentipedeImpl/IHead.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Centipede/ITailPart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CentipedeImpl/ITailPart.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Centipede/ITailPart.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CentipedeImpl/ITailPart.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Centipede/Vector3Extensions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CentipedeImpl/ICentipede.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CentipedeImpl/Vector3Extensions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameLogic/Bullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameLogic/Player/Bullet.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameLogic/Bullet.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameLogic/Player/Bullet.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameLogic/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameLogic/Game.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameLogic/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameLogic/Player/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameLogic/Player.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameLogic/Player/Player.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MapLogic/Cell.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MapLogic/Cell.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MapLogic/Map.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MapLogic/Map.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MapLogic/Maps.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MapLogic/Maps.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,171 +55,123 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-873363453">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.16" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="cs" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="C#" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="cs" value="771" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="C#" value="771" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="1870880997">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="cs" value="2208" />
-          <entry key="txt" value="62" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="C#" value="2208" />
-          <entry key="PLAIN_TEXT" value="62" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="cs" value="19" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="C#" value="19" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/Player.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/CentipedeImpl/ICentipedePart.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+            <state relative-caret-position="144">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
-                <marker date="1553035741469" expanded="true" signature="39:1616" ph="{...}" />
-                <marker date="1553035741469" expanded="true" signature="81:1614" ph="{...}" />
-                <marker date="1553035741469" expanded="true" signature="418:560" ph="{...}" />
-                <marker date="1553035741469" expanded="true" signature="596:739" ph="{...}" />
-                <marker date="1553035741469" expanded="true" signature="676:729" ph="{...}" />
-                <marker date="1553035741469" expanded="true" signature="768:1152" ph="{...}" />
-                <marker date="1553035741469" expanded="true" signature="1182:1608" ph="{...}" />
+                <marker date="1553559702648" expanded="true" signature="38:252" ph="{...}" />
+                <marker date="1553559702648" expanded="true" signature="76:250" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/MapLogic/Maps.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/CentipedeImpl/ITailPart.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="112">
-              <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
               <folding>
-                <marker date="1553286195956" expanded="true" signature="53:2599" ph="{...}" />
-                <marker date="1553286195956" expanded="true" signature="84:2597" ph="{...}" />
-                <marker date="1553286195956" expanded="true" signature="217:2436" ph="{...}" />
-                <marker date="1553286195956" expanded="true" signature="250:1434" ph="{...}" />
-                <marker date="1553286195956" expanded="true" signature="1467:2426" ph="{...}" />
-                <marker date="1553286195956" expanded="true" signature="2476:2591" ph="{...}" />
+                <marker date="1553559514371" expanded="true" signature="43:213" ph="{...}" />
+                <marker date="1553559514371" expanded="true" signature="93:211" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/MapLogic/Map.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/CentipedeLogic/Head.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+            <state relative-caret-position="410">
+              <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
               <folding>
-                <marker date="1553286208790" expanded="true" signature="6:120" ph="..." />
-                <marker date="1553286208790" expanded="true" signature="140:2102" ph="{...}" />
-                <marker date="1553286208790" expanded="true" signature="179:2100" ph="{...}" />
-                <marker date="1553286208790" expanded="true" signature="406:815" ph="{...}" />
-                <marker date="1553286208790" expanded="true" signature="432:805" ph="{...}" />
-                <marker date="1553286208790" expanded="true" signature="608:791" ph="{...}" />
-                <marker date="1553286208790" expanded="true" signature="679:773" ph="{...}" />
-                <marker date="1553286208790" expanded="true" signature="845:1570" ph="{...}" />
-                <marker date="1553286208790" expanded="true" signature="1069:1560" ph="{...}" />
-                <marker date="1553286208790" expanded="true" signature="1132:1546" ph="{...}" />
-                <marker date="1553286208790" expanded="true" signature="1634:1706" ph="{...}" />
-                <marker date="1553286208790" expanded="true" signature="1743:1920" ph="{...}" />
-                <marker date="1553286208790" expanded="true" signature="1957:2094" ph="{...}" />
+                <marker date="1553560593813" expanded="false" signature="6:68" ph="..." />
+                <marker date="1553560593813" expanded="true" signature="93:1020" ph="{...}" />
+                <marker date="1553560593813" expanded="true" signature="140:1018" ph="{...}" />
+                <marker date="1553560593813" expanded="true" signature="420:592" ph="{...}" />
+                <marker date="1553560593813" expanded="true" signature="634:681" ph="{...}" />
+                <marker date="1553560593813" expanded="true" signature="712:775" ph="{...}" />
+                <marker date="1553560593813" expanded="true" signature="831:1012" ph="{...}" />
+                <marker date="1553560593813" expanded="true" signature="929:1002" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/Bullet.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/CentipedeLogic/Centipede.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            <state relative-caret-position="72">
+              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
               <folding>
-                <marker date="1553035741526" expanded="true" signature="39:374" ph="{...}" />
-                <marker date="1553035741526" expanded="true" signature="81:372" ph="{...}" />
-                <marker date="1553035741526" expanded="true" signature="154:225" ph="{...}" />
-                <marker date="1553035741526" expanded="true" signature="281:366" ph="{...}" />
+                <marker date="1553560343992" expanded="false" signature="6:144" ph="..." />
+                <marker date="1553560343992" expanded="true" signature="169:5888" ph="{...}" />
+                <marker date="1553560343992" expanded="true" signature="214:5886" ph="{...}" />
+                <marker date="1553560343992" expanded="true" signature="818:1619" ph="{...}" />
+                <marker date="1553560343992" expanded="true" signature="1005:1082" ph="{...}" />
+                <marker date="1553560343992" expanded="true" signature="1177:1547" ph="{...}" />
+                <marker date="1553560343992" expanded="true" signature="1334:1444" ph="{...}" />
+                <marker date="1553560343992" expanded="true" signature="1657:1737" ph="{...}" />
+                <marker date="1553560343992" expanded="true" signature="1792:2345" ph="{...}" />
+                <marker date="1553560343992" expanded="true" signature="1951:2009" ph="{...}" />
+                <marker date="1553560343992" expanded="true" signature="2060:2170" ph="{...}" />
+                <marker date="1553560343992" expanded="true" signature="2251:2309" ph="{...}" />
+                <marker date="1553560343992" expanded="true" signature="2407:2616" ph="{...}" />
+                <marker date="1553560343992" expanded="true" signature="2676:2887" ph="{...}" />
+                <marker date="1553560343992" expanded="true" signature="2917:3944" ph="{...}" />
+                <marker date="1553560343992" expanded="true" signature="3074:3888" ph="{...}" />
+                <marker date="1553560343992" expanded="true" signature="3116:3488" ph="{...}" />
+                <marker date="1553560343992" expanded="true" signature="3989:4201" ph="{...}" />
+                <marker date="1553560343992" expanded="true" signature="4027:4159" ph="{...}" />
+                <marker date="1553560343992" expanded="true" signature="4269:5057" ph="{...}" />
+                <marker date="1553560343992" expanded="true" signature="4307:5047" ph="{...}" />
+                <marker date="1553560343992" expanded="true" signature="4565:4739" ph="{...}" />
+                <marker date="1553560343992" expanded="true" signature="5101:5239" ph="{...}" />
+                <marker date="1553560343992" expanded="true" signature="5286:5367" ph="{...}" />
+                <marker date="1553560343992" expanded="true" signature="5435:5765" ph="{...}" />
+                <marker date="1553560343992" expanded="true" signature="5817:5880" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/MapLogic/Cell.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/CentipedeLogic/Tail.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+            <state relative-caret-position="80">
+              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
               <folding>
-                <marker date="1553286314115" expanded="true" signature="38:588" ph="{...}" />
-                <marker date="1553286314115" expanded="true" signature="78:586" ph="{...}" />
-                <marker date="1553286314115" expanded="true" signature="290:475" ph="{...}" />
-                <marker date="1553286314115" expanded="true" signature="518:571" ph="{...}" />
+                <marker date="1553560583281" expanded="false" signature="6:68" ph="..." />
+                <marker date="1553560583281" expanded="true" signature="93:1026" ph="{...}" />
+                <marker date="1553560583281" expanded="true" signature="144:1024" ph="{...}" />
+                <marker date="1553560583281" expanded="true" signature="428:598" ph="{...}" />
+                <marker date="1553560583281" expanded="true" signature="640:687" ph="{...}" />
+                <marker date="1553560583281" expanded="true" signature="743:924" ph="{...}" />
+                <marker date="1553560583281" expanded="true" signature="841:914" ph="{...}" />
+                <marker date="1553560583281" expanded="true" signature="955:1018" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/Game.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Enums/Direction.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+            <state relative-caret-position="88">
+              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
               <folding>
-                <marker date="1553284213106" expanded="false" signature="6:34" ph="..." />
-                <marker date="1553284213106" expanded="true" signature="55:664" ph="{...}" />
-                <marker date="1553284213106" expanded="true" signature="95:662" ph="{...}" />
-                <marker date="1553284213106" expanded="true" signature="327:400" ph="{...}" />
-                <marker date="1553284213106" expanded="true" signature="436:656" ph="{...}" />
+                <marker date="1553560564356" expanded="false" signature="6:32" ph="..." />
+                <marker date="1553560564356" expanded="true" signature="57:1396" ph="{...}" />
+                <marker date="1553560564356" expanded="true" signature="85:154" ph="{...}" />
+                <marker date="1553560564356" expanded="true" signature="199:1394" ph="{...}" />
+                <marker date="1553560564356" expanded="true" signature="267:821" ph="{...}" />
+                <marker date="1553560564356" expanded="true" signature="303:811" ph="{...}" />
+                <marker date="1553560564356" expanded="true" signature="878:1388" ph="{...}" />
+                <marker date="1553560564356" expanded="true" signature="914:1378" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -194,22 +189,23 @@
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F675ED20-B25E-4829-98DB-E77607068EC9/dc/e6bd1a33/RProperty`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F675ED20-B25E-4829-98DB-E77607068EC9/0b/de7dfb28/RdEndpoint`2.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MapLogic/Cell.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F675ED20-B25E-4829-98DB-E77607068EC9/01/ec3d9eae/SocketWire.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MapLogic/Maps.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F675ED20-B25E-4829-98DB-E77607068EC9/a8/abd10afd/RdSignal`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F675ED20-B25E-4829-98DB-E77607068EC9/4c/30868ece/MainThreadDispatcher.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F675ED20-B25E-4829-98DB-E77607068EC9/38/5d941f6c/EditorPluginModel.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2B23D219-9AE9-47FE-B6BA-2DBC1517A519/10/2944b524/MouseEventBase`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F675ED20-B25E-4829-98DB-E77607068EC9/ea/c1e6e1bd/PluginEntryPoint.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CentipedeImpl/ITailPart.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/Player/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/CentipedeLogic/Tail.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/Player/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/Game.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enums/EndCondition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enums/ShotResult.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MapLogic/Cell.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MapLogic/Maps.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MapLogic/Map.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/Player.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F675ED20-B25E-4829-98DB-E77607068EC9/d1/7f43d7aa/ReactiveEx.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F675ED20-B25E-4829-98DB-E77607068EC9/51/44eff37c/Signal`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CentipedeImpl/IHead.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/CentipedeLogic/Head.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enums/Direction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CentipedeImpl/Point.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/CentipedeLogic/Centipede.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CentipedeImpl/ICentipedePart.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MapLogic/Mushroom.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -219,74 +215,52 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Game Logic/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game Logic/Bullet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Map Logic/Maps.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameLogic/Player.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameLogic/Game.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MapLogic/Map.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MapLogic/Maps.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Centipede/Vector3Extensions.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Centipede/IHead.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Centipede/ITailPart.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Centipede/Tail.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Centipede/Centipede.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Centipede/Head.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CentipedeImpl/Vector3Extensions.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CentipedeImpl/ShotResult.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CentipedeImpl/Head.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MapLogic/Cell.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CentipedeImpl/Direction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CentipedeImpl/Tail.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MapLogic/Mushroom.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CentipedeImpl/Centipede.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameLogic/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameLogic/Bullet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MapLogic/Maps.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MapLogic/Map.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CentipedeImpl/ICentipede.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CentipedeImpl/IHead.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CentipedeImpl/ITailPart.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameLogic/Game.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CentipedeImpl/ICentipedePart.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameLogic/CentipedeLogic/Centipede.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CentipedeImpl/Point.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enums/Direction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameLogic/CentipedeLogic/Tail.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameLogic/CentipedeLogic/Head.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="654" />
-    <option name="height" value="991" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="797" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="SolutionExplorer" proportions="" version="1">
-      <autoscrollFromSource SolutionExplorer="true" />
+    <navigator currentView="UnityExplorer" proportions="" version="1">
+      <autoscrollToSource UnityExplorer="true" />
+      <autoscrollFromSource SolutionExplorer="true" UnityExplorer="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="SolutionExplorer">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Centipede" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Centipede" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Centipede" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Assets" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Centipede" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Assets" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Scripts" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Centipede" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Assets" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Scripts" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="GameLogic" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Centipede" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Assets" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Scripts" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="MapLogic" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-        <option name="show-all-files" value="false" />
-      </pane>
       <pane id="FileSystemExplorer">
         <subPane>
           <expand>
@@ -323,6 +297,71 @@
           <select />
         </subPane>
       </pane>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="centipede" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="centipede" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="UnityExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="CentipedeImpl" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="Enums" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="GameLogic" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="GameLogic" type="1045f7f1:UnityExplorerNode" />
+              <item name="CentipedeLogic" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Packages" type="4e2708dd:PackagesRoot" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-hidden-items" value="false" />
+        <option name="show-project-names" value="true" />
+      </pane>
+      <pane id="AssemblyExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -344,13 +383,15 @@
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="5504">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="11368">
+      <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="5504" />
+      <option name="pid" value="11368" />
       <method v="2" />
     </configuration>
     <list>
@@ -395,39 +436,70 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16111952" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16687042" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.2442623" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.24412094" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unity" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unit Tests" order="12" />
       <window_info anchor="bottom" id="Terminal" order="13" />
-      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" weight="0.32922733" />
+      <window_info anchor="bottom" id="Performance Profiler" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
       <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="6" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.16320294" />
+      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Performance Profiler" order="0" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.2442623" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="NuGet" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="13" />
+      <window_info anchor="bottom" id="Terminal" order="14" />
+      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" weight="0.32922733" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+    </layout-to-restore>
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Maps and Shooting" />
     <option name="LAST_COMMIT_MESSAGE" value="Maps and Shooting" />
@@ -444,165 +516,296 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Player.cs" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F675ED20-B25E-4829-98DB-E77607068EC9/0b/de7dfb28/RdEndpoint`2.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F675ED20-B25E-4829-98DB-E77607068EC9/38/5d941f6c/EditorPluginModel.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="364" column="6" selection-start-line="364" selection-start-column="6" selection-end-line="364" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F675ED20-B25E-4829-98DB-E77607068EC9/ea/c1e6e1bd/PluginEntryPoint.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="221" column="10" selection-start-line="221" selection-start-column="10" selection-end-line="221" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F675ED20-B25E-4829-98DB-E77607068EC9/d1/7f43d7aa/ReactiveEx.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="66" column="47" selection-start-line="66" selection-start-column="47" selection-end-line="66" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F675ED20-B25E-4829-98DB-E77607068EC9/51/44eff37c/Signal`1.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="42" column="6" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F675ED20-B25E-4829-98DB-E77607068EC9/dc/e6bd1a33/RProperty`1.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="49" column="10" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F675ED20-B25E-4829-98DB-E77607068EC9/01/ec3d9eae/SocketWire.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="57" column="42" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F675ED20-B25E-4829-98DB-E77607068EC9/4c/30868ece/MainThreadDispatcher.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="49" column="10" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F675ED20-B25E-4829-98DB-E77607068EC9/a8/abd10afd/RdSignal`1.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="57" column="6" selection-start-line="57" selection-start-column="6" selection-end-line="57" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2B23D219-9AE9-47FE-B6BA-2DBC1517A519/10/2944b524/MouseEventBase`1.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="95" column="6" selection-start-line="95" selection-start-column="6" selection-end-line="95" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/Game.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-          <folding>
-            <marker date="1553284213106" expanded="false" signature="6:34" ph="..." />
-            <marker date="1553284213106" expanded="true" signature="55:664" ph="{...}" />
-            <marker date="1553284213106" expanded="true" signature="95:662" ph="{...}" />
-            <marker date="1553284213106" expanded="true" signature="327:400" ph="{...}" />
-            <marker date="1553284213106" expanded="true" signature="436:656" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MapLogic/Cell.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-          <folding>
-            <marker date="1553286314115" expanded="true" signature="38:588" ph="{...}" />
-            <marker date="1553286314115" expanded="true" signature="78:586" ph="{...}" />
-            <marker date="1553286314115" expanded="true" signature="290:475" ph="{...}" />
-            <marker date="1553286314115" expanded="true" signature="518:571" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/Bullet.cs">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F675ED20-B25E-4829-98DB-E77607068EC9/0b/de7dfb28/RdEndpoint`2.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F675ED20-B25E-4829-98DB-E77607068EC9/38/5d941f6c/EditorPluginModel.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F675ED20-B25E-4829-98DB-E77607068EC9/ea/c1e6e1bd/PluginEntryPoint.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F675ED20-B25E-4829-98DB-E77607068EC9/d1/7f43d7aa/ReactiveEx.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F675ED20-B25E-4829-98DB-E77607068EC9/51/44eff37c/Signal`1.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F675ED20-B25E-4829-98DB-E77607068EC9/dc/e6bd1a33/RProperty`1.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F675ED20-B25E-4829-98DB-E77607068EC9/01/ec3d9eae/SocketWire.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F675ED20-B25E-4829-98DB-E77607068EC9/4c/30868ece/MainThreadDispatcher.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F675ED20-B25E-4829-98DB-E77607068EC9/a8/abd10afd/RdSignal`1.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2B23D219-9AE9-47FE-B6BA-2DBC1517A519/10/2944b524/MouseEventBase`1.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CentipedeImpl/Vector3Extensions.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding>
-            <marker date="1553035741526" expanded="true" signature="39:374" ph="{...}" />
-            <marker date="1553035741526" expanded="true" signature="81:372" ph="{...}" />
-            <marker date="1553035741526" expanded="true" signature="154:225" ph="{...}" />
-            <marker date="1553035741526" expanded="true" signature="281:366" ph="{...}" />
-          </folding>
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MapLogic/Map.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MapLogic/Mushroom.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+        <state relative-caret-position="272">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
           <folding>
-            <marker date="1553286208790" expanded="true" signature="6:120" ph="..." />
-            <marker date="1553286208790" expanded="true" signature="140:2102" ph="{...}" />
-            <marker date="1553286208790" expanded="true" signature="179:2100" ph="{...}" />
-            <marker date="1553286208790" expanded="true" signature="406:815" ph="{...}" />
-            <marker date="1553286208790" expanded="true" signature="432:805" ph="{...}" />
-            <marker date="1553286208790" expanded="true" signature="608:791" ph="{...}" />
-            <marker date="1553286208790" expanded="true" signature="679:773" ph="{...}" />
-            <marker date="1553286208790" expanded="true" signature="845:1570" ph="{...}" />
-            <marker date="1553286208790" expanded="true" signature="1069:1560" ph="{...}" />
-            <marker date="1553286208790" expanded="true" signature="1132:1546" ph="{...}" />
-            <marker date="1553286208790" expanded="true" signature="1634:1706" ph="{...}" />
-            <marker date="1553286208790" expanded="true" signature="1743:1920" ph="{...}" />
-            <marker date="1553286208790" expanded="true" signature="1957:2094" ph="{...}" />
+            <marker date="1553555671426" expanded="false" signature="6:35" ph="..." />
+            <marker date="1553555671426" expanded="true" signature="55:472" ph="{...}" />
+            <marker date="1553555671426" expanded="true" signature="99:470" ph="{...}" />
+            <marker date="1553555671426" expanded="true" signature="188:463" ph="{...}" />
+            <marker date="1553555671426" expanded="true" signature="286:453" ph="{...}" />
+            <marker date="1553555671426" expanded="true" signature="352:439" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/MapLogic/Maps.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+        <state relative-caret-position="-262">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
           <folding>
-            <marker date="1553286195956" expanded="true" signature="53:2599" ph="{...}" />
-            <marker date="1553286195956" expanded="true" signature="84:2597" ph="{...}" />
-            <marker date="1553286195956" expanded="true" signature="217:2436" ph="{...}" />
-            <marker date="1553286195956" expanded="true" signature="250:1434" ph="{...}" />
-            <marker date="1553286195956" expanded="true" signature="1467:2426" ph="{...}" />
-            <marker date="1553286195956" expanded="true" signature="2476:2591" ph="{...}" />
+            <marker date="1553558756761" expanded="true" signature="53:2824" ph="{...}" />
+            <marker date="1553558756761" expanded="true" signature="84:2822" ph="{...}" />
+            <marker date="1553558756761" expanded="true" signature="217:2661" ph="{...}" />
+            <marker date="1553558756761" expanded="true" signature="250:1434" ph="{...}" />
+            <marker date="1553558756761" expanded="true" signature="1467:2651" ph="{...}" />
+            <marker date="1553558756761" expanded="true" signature="2701:2816" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/Player.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MapLogic/Map.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        <state relative-caret-position="912">
+          <caret line="63" column="9" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
           <folding>
-            <marker date="1553035741469" expanded="true" signature="39:1616" ph="{...}" />
-            <marker date="1553035741469" expanded="true" signature="81:1614" ph="{...}" />
-            <marker date="1553035741469" expanded="true" signature="418:560" ph="{...}" />
-            <marker date="1553035741469" expanded="true" signature="596:739" ph="{...}" />
-            <marker date="1553035741469" expanded="true" signature="676:729" ph="{...}" />
-            <marker date="1553035741469" expanded="true" signature="768:1152" ph="{...}" />
-            <marker date="1553035741469" expanded="true" signature="1182:1608" ph="{...}" />
+            <marker date="1553558957251" expanded="false" signature="6:164" ph="..." />
+            <marker date="1553558957251" expanded="true" signature="184:2410" ph="{...}" />
+            <marker date="1553558957251" expanded="true" signature="223:2408" ph="{...}" />
+            <marker date="1553558957251" expanded="true" signature="459:868" ph="{...}" />
+            <marker date="1553558957251" expanded="true" signature="485:858" ph="{...}" />
+            <marker date="1553558957251" expanded="true" signature="661:844" ph="{...}" />
+            <marker date="1553558957251" expanded="true" signature="732:826" ph="{...}" />
+            <marker date="1553558957251" expanded="true" signature="898:1625" ph="{...}" />
+            <marker date="1553558957251" expanded="true" signature="1122:1615" ph="{...}" />
+            <marker date="1553558957251" expanded="true" signature="1185:1601" ph="{...}" />
+            <marker date="1553558957251" expanded="true" signature="1689:1761" ph="{...}" />
+            <marker date="1553558957251" expanded="true" signature="1814:2022" ph="{...}" />
+            <marker date="1553558957251" expanded="true" signature="2059:2297" ph="{...}" />
+            <marker date="1553558957251" expanded="true" signature="2338:2402" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MapLogic/Cell.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding>
+            <marker date="1553554773773" expanded="true" signature="38:590" ph="{...}" />
+            <marker date="1553554773773" expanded="true" signature="78:588" ph="{...}" />
+            <marker date="1553554773773" expanded="true" signature="290:475" ph="{...}" />
+            <marker date="1553554773773" expanded="true" signature="520:573" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/Player/Player.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding>
+            <marker date="1553558062605" expanded="true" signature="39:1686" ph="{...}" />
+            <marker date="1553558062605" expanded="true" signature="81:1684" ph="{...}" />
+            <marker date="1553558062605" expanded="true" signature="434:576" ph="{...}" />
+            <marker date="1553558062605" expanded="true" signature="612:755" ph="{...}" />
+            <marker date="1553558062605" expanded="true" signature="692:745" ph="{...}" />
+            <marker date="1553558062605" expanded="true" signature="784:1168" ph="{...}" />
+            <marker date="1553558062605" expanded="true" signature="1198:1678" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/Player/Bullet.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+          <folding>
+            <marker date="1553558089686" expanded="true" signature="39:437" ph="{...}" />
+            <marker date="1553558089686" expanded="true" signature="81:435" ph="{...}" />
+            <marker date="1553558089686" expanded="true" signature="154:225" ph="{...}" />
+            <marker date="1553558089686" expanded="true" signature="281:334" ph="{...}" />
+            <marker date="1553558089686" expanded="true" signature="376:429" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Enums/ShotResult.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <folding>
+            <marker date="1553551821991" expanded="true" signature="23:103" ph="{...}" />
+            <marker date="1553551821991" expanded="true" signature="52:101" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Enums/EndCondition.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16">
+          <folding>
+            <marker date="1553558909240" expanded="true" signature="24:46" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CentipedeImpl/ICentipede.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/Game.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <marker date="1553559652086" expanded="false" signature="6:171" ph="..." />
+            <marker date="1553559652086" expanded="true" signature="192:2114" ph="{...}" />
+            <marker date="1553559652086" expanded="true" signature="232:2112" ph="{...}" />
+            <marker date="1553559652086" expanded="true" signature="641:841" ph="{...}" />
+            <marker date="1553559652086" expanded="true" signature="877:972" ph="{...}" />
+            <marker date="1553559652086" expanded="true" signature="1011:1108" ph="{...}" />
+            <marker date="1553559652086" expanded="true" signature="1140:1228" ph="{...}" />
+            <marker date="1553559652086" expanded="true" signature="1286:1874" ph="{...}" />
+            <marker date="1553559652086" expanded="true" signature="1466:1800" ph="{...}" />
+            <marker date="1553559652086" expanded="true" signature="1920:2106" ph="{...}" />
+            <marker date="1553559652086" expanded="true" signature="1962:2096" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CentipedeImpl/IHead.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+          <folding>
+            <marker date="1553559495654" expanded="true" signature="43:209" ph="{...}" />
+            <marker date="1553559495654" expanded="true" signature="89:207" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CentipedeImpl/Point.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <folding>
+            <marker date="1553474440096" expanded="true" signature="43:514" ph="{...}" />
+            <marker date="1553474440096" expanded="true" signature="68:512" ph="{...}" />
+            <marker date="1553474440096" expanded="true" signature="154:212" ph="{...}" />
+            <marker date="1553474440096" expanded="true" signature="248:306" ph="{...}" />
+            <marker date="1553474440096" expanded="true" signature="346:420" ph="{...}" />
+            <marker date="1553474440096" expanded="true" signature="450:506" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CentipedeImpl/ITailPart.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding>
+            <marker date="1553559514371" expanded="true" signature="43:213" ph="{...}" />
+            <marker date="1553559514371" expanded="true" signature="93:211" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/CentipedeLogic/Head.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
+          <folding>
+            <marker date="1553560593813" expanded="false" signature="6:68" ph="..." />
+            <marker date="1553560593813" expanded="true" signature="93:1020" ph="{...}" />
+            <marker date="1553560593813" expanded="true" signature="140:1018" ph="{...}" />
+            <marker date="1553560593813" expanded="true" signature="420:592" ph="{...}" />
+            <marker date="1553560593813" expanded="true" signature="634:681" ph="{...}" />
+            <marker date="1553560593813" expanded="true" signature="712:775" ph="{...}" />
+            <marker date="1553560593813" expanded="true" signature="831:1012" ph="{...}" />
+            <marker date="1553560593813" expanded="true" signature="929:1002" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/CentipedeLogic/Centipede.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+          <folding>
+            <marker date="1553560343992" expanded="false" signature="6:144" ph="..." />
+            <marker date="1553560343992" expanded="true" signature="169:5888" ph="{...}" />
+            <marker date="1553560343992" expanded="true" signature="214:5886" ph="{...}" />
+            <marker date="1553560343992" expanded="true" signature="818:1619" ph="{...}" />
+            <marker date="1553560343992" expanded="true" signature="1005:1082" ph="{...}" />
+            <marker date="1553560343992" expanded="true" signature="1177:1547" ph="{...}" />
+            <marker date="1553560343992" expanded="true" signature="1334:1444" ph="{...}" />
+            <marker date="1553560343992" expanded="true" signature="1657:1737" ph="{...}" />
+            <marker date="1553560343992" expanded="true" signature="1792:2345" ph="{...}" />
+            <marker date="1553560343992" expanded="true" signature="1951:2009" ph="{...}" />
+            <marker date="1553560343992" expanded="true" signature="2060:2170" ph="{...}" />
+            <marker date="1553560343992" expanded="true" signature="2251:2309" ph="{...}" />
+            <marker date="1553560343992" expanded="true" signature="2407:2616" ph="{...}" />
+            <marker date="1553560343992" expanded="true" signature="2676:2887" ph="{...}" />
+            <marker date="1553560343992" expanded="true" signature="2917:3944" ph="{...}" />
+            <marker date="1553560343992" expanded="true" signature="3074:3888" ph="{...}" />
+            <marker date="1553560343992" expanded="true" signature="3116:3488" ph="{...}" />
+            <marker date="1553560343992" expanded="true" signature="3989:4201" ph="{...}" />
+            <marker date="1553560343992" expanded="true" signature="4027:4159" ph="{...}" />
+            <marker date="1553560343992" expanded="true" signature="4269:5057" ph="{...}" />
+            <marker date="1553560343992" expanded="true" signature="4307:5047" ph="{...}" />
+            <marker date="1553560343992" expanded="true" signature="4565:4739" ph="{...}" />
+            <marker date="1553560343992" expanded="true" signature="5101:5239" ph="{...}" />
+            <marker date="1553560343992" expanded="true" signature="5286:5367" ph="{...}" />
+            <marker date="1553560343992" expanded="true" signature="5435:5765" ph="{...}" />
+            <marker date="1553560343992" expanded="true" signature="5817:5880" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/CentipedeLogic/Tail.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <marker date="1553560583281" expanded="false" signature="6:68" ph="..." />
+            <marker date="1553560583281" expanded="true" signature="93:1026" ph="{...}" />
+            <marker date="1553560583281" expanded="true" signature="144:1024" ph="{...}" />
+            <marker date="1553560583281" expanded="true" signature="428:598" ph="{...}" />
+            <marker date="1553560583281" expanded="true" signature="640:687" ph="{...}" />
+            <marker date="1553560583281" expanded="true" signature="743:924" ph="{...}" />
+            <marker date="1553560583281" expanded="true" signature="841:914" ph="{...}" />
+            <marker date="1553560583281" expanded="true" signature="955:1018" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Enums/Direction.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <folding>
+            <marker date="1553560564356" expanded="false" signature="6:32" ph="..." />
+            <marker date="1553560564356" expanded="true" signature="57:1396" ph="{...}" />
+            <marker date="1553560564356" expanded="true" signature="85:154" ph="{...}" />
+            <marker date="1553560564356" expanded="true" signature="199:1394" ph="{...}" />
+            <marker date="1553560564356" expanded="true" signature="267:821" ph="{...}" />
+            <marker date="1553560564356" expanded="true" signature="303:811" ph="{...}" />
+            <marker date="1553560564356" expanded="true" signature="878:1388" ph="{...}" />
+            <marker date="1553560564356" expanded="true" signature="914:1378" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CentipedeImpl/ICentipedePart.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <marker date="1553559702648" expanded="true" signature="38:252" ph="{...}" />
+            <marker date="1553559702648" expanded="true" signature="76:250" ph="{...}" />
           </folding>
         </state>
       </provider>
